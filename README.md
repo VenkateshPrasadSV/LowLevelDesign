@@ -1,2 +1,3 @@
 # LowLevelDesign
-LLD practice with Java
+LLD practice with Kotlin
+
