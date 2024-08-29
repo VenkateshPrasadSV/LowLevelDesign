@@ -1,7 +1,20 @@
 package com.pj.lldkotlin.basics.datatypes
 
+import android.os.Build.VERSION_CODES.Q
+
 fun main() {
     testMaxRange()
+
+
+    // Extra observations:
+//    Q : Is numbers of bit are directly associated with number transistors?
+//    The answer no, to create 32 bit of memory in RAM, we might need more transistors.
+//    We can't assume that numbers of transistors are directly associated with number of bits.
+
+//    While 32 bits are used to represent a 32-bit integer,
+//    the number of transistors required to store and process those bits is much higher,
+//    depending on the specific technology (like SRAM, DRAM, or processor registers)
+//    and the complexity of the operations performed on those bits.
 }
 
 fun testMaxRange() {
